@@ -1,0 +1,6 @@
+W tabeli zebrane są czasy działania poszczególnych algorytmów dla tablicy o 20’000 elementów oraz 2’000 elementów,
+ ułożonej losowo, posortowanej rosnąco oraz malejąco.
+Jak widać dla tabeli losowo ułożonych liczb najszybszy okazał się QS którego średnia złożoność dorównuje optymistycznej (n log n),
+ najgorszy wynik uzyskał BS którego złożoność jest równa (O=n^2).
+ Pomimo, że QS uzyskał lepszy wynik dla losowych liczb widać,
+ że w przypadkach pesymistycznych HS posiadający lepszą złożoność pesymistyczną (O=n log n vs O=n^2 dla QS) osiąga dużo lepsze wyniki.  
